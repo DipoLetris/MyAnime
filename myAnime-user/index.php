@@ -79,7 +79,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link " href="index.php">
           <i class="bi bi-grid"></i>
           <span>Home</span>
         </a>
@@ -156,7 +156,7 @@
       <li class="nav-heading">Pages</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-register.html">
+        <a class="nav-link collapsed" href="genre.html">
           <i class="bi bi-card-list"></i>
           <span>Pilih Genre</span>
         </a>
@@ -164,29 +164,29 @@
 
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
+        <a class="nav-link collapsed" href="rekomendasi-anime.html">
           <i class="bi bi-question-circle"></i>
           <span>Rekomendasi Anime</span>
         </a>
       </li><!-- End F.A.Q Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-contact.html">
+        <a class="nav-link collapsed" href="rekomendasi-manga.html">
           <i class="bi bi-envelope"></i>
           <span>Rekomendasi Manga</span>
         </a>
       </li><!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
+        <a class="nav-link collapsed" href="tentang.html">
           <i class="bi bi-person"></i>
-          <span>About</span>
+          <span>Tentang</span>
         </a>
       </li><!-- End Profile Page Nav -->
 
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-login.html">
+        <a class="nav-link collapsed" href="saran.html">
           <i class="bi bi-box-arrow-in-right"></i>
           <span>Saran</span>
         </a>
