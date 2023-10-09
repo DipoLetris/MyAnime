@@ -200,9 +200,341 @@
 
     <div class="pagetitle">
       <h1>Home</h1>
+      <h1 style="margin-left: 30px; margin-top: 30px;">Anime</h1>
     </div><!-- End Page Title -->
 
-  
+             <!-- Default Card -->
+             <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Rekomendasi Anime</h5>
+                
+                    <!-- Default Tabs -->
+              <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100 active" id="anime-action" data-bs-toggle="tab" data-bs-target="#home-justified" type="button" role="tab" aria-controls="anime-action" aria-selected="true">Action</button>
+                </li>
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100" id="anime-comedy" data-bs-toggle="tab" data-bs-target="#profile-justified" type="button" role="tab" aria-controls="anime-comedy" aria-selected="false">Comedy</button>
+                </li>
+                <li class="nav-item flex-fill" role="presentation">
+                  <button class="nav-link w-100" id="anime-mystery" data-bs-toggle="tab" data-bs-target="#contact-justified" type="button" role="tab" aria-controls="anime-mystery" aria-selected="false">Mystery</button>
+                </li>
+              </ul>
+
+              <div class="tab-content pt-2" id="myTabjustifiedContent">
+                <div class="tab-pane fade show active" id="home-justified" role="tabpanel" aria-labelledby="anime-action">
+                  
+              <div class="row" style="margin: 10px; margin-top: 30px ;">
+
+                <div class="col-md-3">
+                  <div class="card text-start shadow-sm " >
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="card text-start shadow-sm ">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="card text-start shadow-sm ">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="card text-start shadow-sm ">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+                </div>
+
+              <div class="tab-pane fade" id="profile-justified" role="tabpanel" aria-labelledby="anime-comedy">
+                  
+                <div class="row" style="margin: 10px; margin-top: 30px ;">
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                </div>
+
+              <div v class="tab-pane fade" id="contact-justified" role="tabpanel" aria-labelledby="anime-mystery">
+                 
+                <div class="row" style="margin: 10px; margin-top: 30px ;">
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <div class="card text-start shadow-sm ">
+                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                      <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                </div>
+    
+              </div>
+              </div>
+
+              </div>
+            </div>
+
+               <!-- End Default Card -->
+             <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Anime On-Going</h5>
+                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
+                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
+                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                </div>
+              </div><!-- End Default Card -->
+
+              <!-- title manga -->
+              <div class="pagetitle">
+              <h1 style="margin-left: 30px; margin-top: 50px;">Manga</h1>
+              </div>
+              
+             <!-- Default Card -->
+             <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Rekomendasi Manga</h5>
+                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
+                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
+                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                </div>
+              </div><!-- End Default Card -->
+
+              <!-- End Default Card -->
+             <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Manga Populer</h5>
+                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
+                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
+                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                </div>
+              </div><!-- End Default Card -->
+
+              <div class="pagetitle">
+              <h1 style="margin-left: 30px; margin-top: 50px;">Genre</h1>
+              </div>
+              
+              <div class="row" style="margin: 10px;">
+                <div class="col-md-2">
+                  <div class="card text-start">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Action</h4>
+                      <button class="btn btn-primary" style="width: 100%;">Baca</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Action</h4>
+                      <button class="btn btn-primary" style="width: 100%;">Baca</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Action</h4>
+                      <button class="btn btn-primary" style="width: 100%;">Baca</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Action</h4>
+                      <button class="btn btn-primary" style="width: 100%;">Baca</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-2">
+                  <div class="card text-start">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Action</h4>
+                      <button class="btn btn-primary" style="width: 100%;">Baca</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <h4 class="card-title" style="text-align: center;">Action</h4>
+                      <button class="btn btn-primary" style="width: 100%;">Baca</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Cari genre -->
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-2">
+                      <h5 class="card-title">Cari Genre :</h5>
+                    </div>
+                    <div class="col-2">
+                    <select class="form-select" id="validationDefault1" style="margin-top: 10px;" required>
+                    <option selected disabled value="">Anime</option>
+                    <option>Manga</option>
+                  </select>
+                    </div>
+                  </div>
+
+
+                <div class="row" style="margin-left:40px; margin-right: 40px;">
+                
+                <div class="col-md-3">
+                  <label for="validationDefault1" class="form-label">State</label>
+                  <select class="form-select" id="validationDefault1" required>
+                    <option selected disabled value="">Genre 1</option>
+                    <option>...</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="validationDefault2" class="form-label">State</label>
+                  <select class="form-select" id="validationDefault2" required>
+                    <option selected disabled value="">Genre 2</option>
+                    <option>...</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3">
+                  <label for="validationDefault3" class="form-label">State</label>
+                  <select class="form-select" id="validationDefault3" required>
+                    <option selected disabled value="">Status</option>
+                    <option>Tamat</option>
+                    <option>On-Going</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3">
+                  <button class="btn btn-primary" style="margin-top: 32px; width: 100%; ">Cari</button>
+                </div>
+
+                </div>
+                  
+                </div>
+              </div>
+
+              <div class="pagetitle"style="margin-left: 30px; margin-top: 30px;">
+                <h1>History</h1>
+              </div>
+
+              <!-- End Default Card -->
+             <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Anime</h5>
+                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
+                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
+                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                </div>
+              </div><!-- End Default Card -->
+
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Manga</h5>
+                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
+                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
+                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                </div>
+              </div><!-- End Default Card -->
+
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
