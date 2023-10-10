@@ -162,21 +162,6 @@
         </a>
       </li><!-- End Register Page Nav -->
 
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="rekomendasi-anime.html">
-          <i class="bi bi-question-circle"></i>
-          <span>Rekomendasi Anime</span>
-        </a>
-      </li><!-- End F.A.Q Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="rekomendasi-manga.html">
-          <i class="bi bi-envelope"></i>
-          <span>Rekomendasi Manga</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
       <li class="nav-item">
         <a class="nav-link collapsed" href="tentang.html">
           <i class="bi bi-person"></i>
@@ -878,42 +863,42 @@
                  
                   <div class="row">
 
-<div class="col-md-6">
-  <div class="card mb-3 shadow-sm" style="height: 200px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Judul-Manga</h5>
-          <p class="card-text"> Genre : ... , ...</p>
-          <button class="btn btn-primary"> Chapter ...</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-<div class="col-md-6">
-  <div class="card mb-3 shadow-sm" style="height: 200px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Judul-Manga</h5>
-          <p class="card-text"> Genre : ... , ...</p>
-          <button class="btn btn-primary"> Chapter ...</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
+                    </div>
 
-</div>
                   <div class="row">
 
 <div class="col-md-6">
