@@ -207,164 +207,184 @@
              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Rekomendasi Anime</h5>
-                
-                    <!-- Default Tabs -->
-              <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
-                <li class="nav-item flex-fill" role="presentation">
-                  <button class="nav-link w-100 active" id="anime-action" data-bs-toggle="tab" data-bs-target="#home-justified" type="button" role="tab" aria-controls="anime-action" aria-selected="true">Action</button>
-                </li>
-                <li class="nav-item flex-fill" role="presentation">
-                  <button class="nav-link w-100" id="anime-comedy" data-bs-toggle="tab" data-bs-target="#profile-justified" type="button" role="tab" aria-controls="anime-comedy" aria-selected="false">Comedy</button>
-                </li>
-                <li class="nav-item flex-fill" role="presentation">
-                  <button class="nav-link w-100" id="anime-mystery" data-bs-toggle="tab" data-bs-target="#contact-justified" type="button" role="tab" aria-controls="anime-mystery" aria-selected="false">Mystery</button>
-                </li>
-              </ul>
-
-              <div class="tab-content pt-2" id="myTabjustifiedContent">
-                <div class="tab-pane fade show active" id="home-justified" role="tabpanel" aria-labelledby="anime-action">
-                  
-              <div class="row" style="margin: 10px; margin-top: 30px ;">
-
-                <div class="col-md-3">
-                  <div class="card text-start shadow-sm " >
+                    
+              <div class="row" style="margin: 20px;">
+                  <div class="col-md">
+                  <div class="card text-start shadow-sm">
                     <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
                     <div class="card-body">
-                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-3">
-                  <div class="card text-start shadow-sm ">
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
                     <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
                     <div class="card-body">
-                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-3">
-                  <div class="card text-start shadow-sm ">
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
                     <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
                     <div class="card-body">
-                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
                     </div>
                   </div>
                 </div>
 
-                <div class="col-md-3">
-                  <div class="card text-start shadow-sm ">
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
                     <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
                     <div class="card-body">
-                      <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
                     </div>
                   </div>
                 </div>
                 
-              </div>
-
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
                 </div>
 
-              <div class="tab-pane fade" id="profile-justified" role="tabpanel" aria-labelledby="anime-comedy">
-                  
-                <div class="row" style="margin: 10px; margin-top: 30px ;">
+              </div>
 
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
+
+                  <!-- genre recomendasi anime -->
+                  <div class="row">
+
+                    <div class="col-2">
+                      <h5 class="card-title">Cari Genre :</h5>
+                    </div>
+
+                    <div class="col-2">
+
+                    <select class="form-select" id="validationDefault1" style="margin-top: 10px;" required>
+                    <option selected disabled value="">Genre 1</option>
+                    <option>...</option>
+                    </select>
+
+                    </div>
+                    <div class="col-2">
+
+                    <select class="form-select" id="validationDefault1" style="margin-top: 10px;" required>
+                    <option selected disabled value="">Genre 2</option>
+                    <option>...</option>
+                    </select>
+
+                    </div>
+                    <div class="col-2">
+
+                    <select class="form-select" id="validationDefault1" style="margin-top: 10px;" required>
+                    <option selected disabled value="">Status</option>
+                    <option>...</option>
+                    </select>
+
+                    </div>
+                    <div class="col-2">
+
+                      <button class="btn btn-primary" style="width: 100%; margin-top: 9px;">Cari</button>
+
                     </div>
                   </div>
+                  <!-- end cari rekomendasi anime -->
 
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
+                  <div class="row">
+                  <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
                     </div>
                   </div>
-
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-
                 </div>
 
-              <div v class="tab-pane fade" id="contact-justified" role="tabpanel" aria-labelledby="anime-mystery">
-                 
-                <div class="row" style="margin: 10px; margin-top: 30px ;">
-
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
+                <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
                     </div>
                   </div>
-
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="card text-start shadow-sm ">
-                      <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
-                      <div class="card-body">
-                        <h4 class="card-title" style="text-align: center;">Judul-anime</h4>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-
                 </div>
-    
-              </div>
-              </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+                  </div>
 
               </div>
-            </div>
-
+            </div> 
+            
                <!-- End Default Card -->
              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Anime On-Going</h5>
-                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
-                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
-                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                
+                  <div class="row">
+                  <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-2">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-2" style="margin-top: 110px;">
+                  <button class="btn btn-primary">Lebih >> </button>
+                </div>
+
+              </div>
+
                 </div>
               </div><!-- End Default Card -->
 
@@ -377,21 +397,294 @@
              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Rekomendasi Manga</h5>
-                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
-                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
-                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+               
+                  <div class="row">
+
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                  <div class="row" style="margin-top: 20px;">
+
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row" style="margin-top: 20px;">
+
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="card mb-3 shadow-sm" style="height: 200px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  
                 </div>
               </div><!-- End Default Card -->
 
               <!-- End Default Card -->
-             <div class="card">
-                <div class="card-body">
+            
                   <h5 class="card-title">Manga Populer</h5>
-                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
-                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
-                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                <div class="container">
+                  <div class="row" style="margin-top: 20px;">
+
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row" style="margin-top: 20px;">
+
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row" style="margin-top: 20px;">
+
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                      <div class="card mb-3 shadow-sm" style="height: 150px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 150px;" >
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Judul-Manga</h5>
+                              <p class="card-text"> Genre : ... , ...</p>
+                              <button class="btn btn-primary"> Chapter ...</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  </div>
                 </div>
-              </div><!-- End Default Card -->
 
               <div class="pagetitle">
               <h1 style="margin-left: 30px; margin-top: 50px;">Genre</h1>
@@ -519,21 +812,184 @@
              <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Anime</h5>
-                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
-                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
-                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
+                  
+                  <div class="row" style="margin: 20px;">
+                  <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md">
+                  <div class="card text-start shadow-sm">
+                    <img class="card-img-top" src="../foto/ref2.jpg" alt="Title">
+                    <div class="card-body">
+                      <a href="#"><p style="text-align: center; margin-top: 10px;">Judul-anime</p></a> 
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
                 </div>
               </div><!-- End Default Card -->
 
-              <div class="card">
-                <div class="card-body">
+             
                   <h5 class="card-title">Manga</h5>
-                  Ut in ea error laudantium quas omnis officia. Sit sed praesentium voluptas. Corrupti inventore consequatur nisi necessitatibus modi consequuntur soluta id. Enim autem est esse natus assumenda. Non sunt dignissimos officiis expedita. Consequatur sint repellendus voluptas.
-                  Quidem sit est nulla ullam. Suscipit debitis ullam iusto dolorem animi dolorem numquam. Enim fuga ipsum dolor nulla quia ut.
-                  Rerum dolor voluptatem et deleniti libero totam numquam nobis distinctio. Sit sint aut. Consequatur rerum in.
-                </div>
-              </div><!-- End Default Card -->
+                 
+                  <div class="row">
 
+<div class="col-md-6">
+  <div class="card mb-3 shadow-sm" style="height: 200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Judul-Manga</h5>
+          <p class="card-text"> Genre : ... , ...</p>
+          <button class="btn btn-primary"> Chapter ...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="card mb-3 shadow-sm" style="height: 200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Judul-Manga</h5>
+          <p class="card-text"> Genre : ... , ...</p>
+          <button class="btn btn-primary"> Chapter ...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+                  <div class="row">
+
+<div class="col-md-6">
+  <div class="card mb-3 shadow-sm" style="height: 200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Judul-Manga</h5>
+          <p class="card-text"> Genre : ... , ...</p>
+          <button class="btn btn-primary"> Chapter ...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="card mb-3 shadow-sm" style="height: 200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Judul-Manga</h5>
+          <p class="card-text"> Genre : ... , ...</p>
+          <button class="btn btn-primary"> Chapter ...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+                  <div class="row">
+
+<div class="col-md-6">
+  <div class="card mb-3 shadow-sm" style="height: 200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Judul-Manga</h5>
+          <p class="card-text"> Genre : ... , ...</p>
+          <button class="btn btn-primary"> Chapter ...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6">
+  <div class="card mb-3 shadow-sm" style="height: 200px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../foto/ref2.jpg" class="img-fluid rounded-start" alt="..." style="height: 200px;" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Judul-Manga</h5>
+          <p class="card-text"> Genre : ... , ...</p>
+          <button class="btn btn-primary"> Chapter ...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
 
   </main><!-- End #main -->
 
