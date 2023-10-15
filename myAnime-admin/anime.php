@@ -86,93 +86,37 @@
       </li><!-- End Home Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Anime</span><i class="bi bi-chevron-down ms-auto"></i>
+        <a class="nav-link " data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Database</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <ul id="components-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
           <li>
-            <a href="anime-list.html">
-              <i class="bi bi-circle"></i><span>Anime List</span>
+            <a href="anime.php" class="active">
+              <i class="bi bi-circle"></i><span>Anime</span>
             </a>
           </li>
           <li>
-            <a href="anime-tamat.html">
-              <i class="bi bi-circle"></i><span>Tamat</span>
-            </a>
-          </li>
-          <li>
-            <a href="anime-ongoing.html">
-              <i class="bi bi-circle"></i><span>On-Going</span>
+            <a href="manga.php">
+              <i class="bi bi-circle"></i><span>Manga</span>
             </a>
           </li>
         </ul>
       </li><!-- End Components Nav -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-journal-text"></i><span>Manga</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="manga-list.html">
-              <i class="bi bi-circle" ></i><span>Manga List</span>
-            </a>
-          </li>
-          <li>
-            <a href="manga-tamat.html">
-              <i class="bi bi-circle"></i><span>Tamat</span>
-            </a>
-          </li>
-          <li>
-            <a href="manga-ongoing.html">
-              <i class="bi bi-circle"></i><span>On-Going</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Forms Nav -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Character</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="character-male.html">
-              <i class="bi bi-circle"></i><span>Male</span>
-            </a>
-          </li>
-          <li>
-            <a href="character-female.html">
-              <i class="bi bi-circle"></i><span>Female</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Tables Nav -->
+
+    
+
+      
 
       <li class="nav-heading">Pages</li>
 
       <li class="nav-item">
-        <a class="nav-link" href="genre.html">
+        <a class="nav-link collapsed" href="genre.html">
           <i class="bi bi-card-list"></i>
-          <span>Pilih Genre</span>
+          <span>Akun</span>
         </a>
       </li><!-- End Register Page Nav -->
-
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="tentang.html">
-          <i class="bi bi-person"></i>
-          <span>Tentang</span>
-        </a>
-      </li><!-- End Profile Page Nav -->
-
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="saran.html">
-          <i class="bi bi-box-arrow-in-right"></i>
-          <span>Saran</span>
-        </a>
-      </li><!-- End Login Page Nav -->
 
     </ul>
 
@@ -181,62 +125,9 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Genre</h1>
+      <h1>Database Anime</h1>
     </div><!-- End Page Title -->
-
-     <!-- Cari genre -->
-     <div class="card">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-2">
-            <h5 class="card-title">Cari Genre :</h5>
-          </div>
-          <div class="col-2">
-          <select class="form-select" id="validationDefault1" style="margin-top: 10px;" required>
-          <option selected disabled value="">Anime</option>
-          <option>Manga</option>
-        </select>
-          </div>
-        </div>
-
-
-      <div class="row" style="margin-left:40px; margin-right: 40px;">
-      
-      <div class="col-md-3">
-        <label for="validationDefault1" class="form-label">Genre 1</label>
-        <select class="form-select" id="validationDefault1" required>
-          <option selected disabled value="">Genre 1</option>
-          <option>...</option>
-        </select>
-      </div>
-
-      <div class="col-md-3">
-        <label for="validationDefault2" class="form-label">Genre 2</label>
-        <select class="form-select" id="validationDefault2" required>
-          <option selected disabled value="">Genre 2</option>
-          <option>...</option>
-        </select>
-      </div>
-
-      <div class="col-md-3">
-        <label for="validationDefault3" class="form-label">Status</label>
-        <select class="form-select" id="validationDefault3" required>
-          <option selected disabled value="">Status</option>
-          <option>Tamat</option>
-          <option>On-Going</option>
-        </select>
-      </div>
-
-      <div class="col-md-3">
-        <button class="btn btn-primary" style="margin-top: 32px; width: 100%; ">Cari</button>
-      </div>
-
-      </div>
-        
-      </div>
-    </div>
-    
-    <!-- End Default Card -->
+            
 
   </main><!-- End #main -->
 

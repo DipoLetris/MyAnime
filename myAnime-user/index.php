@@ -756,7 +756,7 @@
                 <div class="row" style="margin-left:40px; margin-right: 40px;">
                 
                 <div class="col-md-3">
-                  <label for="validationDefault1" class="form-label">State</label>
+                  <label for="validationDefault1" class="form-label">Genre 1</label>
                   <select class="form-select" id="validationDefault1" required>
                     <option selected disabled value="">Genre 1</option>
                     <option>...</option>
@@ -764,7 +764,7 @@
                 </div>
 
                 <div class="col-md-3">
-                  <label for="validationDefault2" class="form-label">State</label>
+                  <label for="validationDefault2" class="form-label">Genre 2</label>
                   <select class="form-select" id="validationDefault2" required>
                     <option selected disabled value="">Genre 2</option>
                     <option>...</option>
@@ -772,7 +772,7 @@
                 </div>
 
                 <div class="col-md-3">
-                  <label for="validationDefault3" class="form-label">State</label>
+                  <label for="validationDefault3" class="form-label">Status</label>
                   <select class="form-select" id="validationDefault3" required>
                     <option selected disabled value="">Status</option>
                     <option>Tamat</option>
@@ -788,14 +788,14 @@
                   
                 </div>
               </div>
-
-              <div class="pagetitle"style="margin-left: 30px; margin-top: 30px;">
-                <h1>History</h1>
-              </div>
-
+              
               <!-- End Default Card -->
+              
+                            <div class="pagetitle"style="margin-left: 30px; margin-top: 30px;">
+                              <h1>History</h1>
+                            </div>
              <div class="card">
-                <div class="card-body">
+                <div class="card-body" >
                   <h5 class="card-title">Anime</h5>
                   
                   <div class="row" style="margin: 20px;">
@@ -860,7 +860,7 @@
 
              
                   <h5 class="card-title">Manga</h5>
-                 
+                 <div class="container">
                   <div class="row">
 
                     <div class="col-md-6">
@@ -937,7 +937,7 @@
 
 
 </div>
-                  <div class="row">
+<div class="row">
 
 <div class="col-md-6">
   <div class="card mb-3 shadow-sm" style="height: 200px;">
@@ -972,7 +972,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
 </div>
 
